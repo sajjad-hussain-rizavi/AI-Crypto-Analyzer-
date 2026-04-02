@@ -13,7 +13,10 @@ OLLAMA_MODEL=<YOUR_MODEL>
 INSTALL DEPENDENCIES
 ```
 npm install
-
+```
+RUN HEALTH CHECKS
+```
+node check.js
 ```
 START THE SERVER
 ```
