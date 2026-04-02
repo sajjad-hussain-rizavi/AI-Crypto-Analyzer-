@@ -1,7 +1,7 @@
 Make sure you have a local llm installed. Default is llama3.2:1b. 
-COMMANDS TO SWITCH TO PREFERRED LLM
 
-Open folder in terminal and run
+
+If you want to change to any other model. Open folder in terminal and run
 ```
 cp .env.example .env
 ```
