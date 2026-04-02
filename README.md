@@ -1,7 +1,7 @@
-Make sure you have a local llm installed. Default is llama3.2:1b. 
+Make sure you have a local llm installed. 
+Follow these steps to get started
 
 
-If you want to change to any other model, follow these steps : 
 Create a .env file
 ```
 echo $null > .env.example
