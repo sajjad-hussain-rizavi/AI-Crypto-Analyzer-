@@ -1,0 +1,30 @@
+{
+  "name": "backend-ai-assessment",
+  "version": "1.0.0",
+  "description": "AI Bitcoin Trading Backend — Express API with Binance + Ollama integration",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "chat": "node chat.js",
+    "chat:no-market": "node chat.js --no-market",
+    "cli:health": "node cli.js health",
+    "cli:price": "node cli.js price",
+    "cli:klines": "node cli.js klines",
+    "cli:ask": "node cli.js ask"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pino": "^9.3.2",
+    "pino-pretty": "^11.2.1",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
